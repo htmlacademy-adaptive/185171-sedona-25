@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Елена Волкова](https://up.htmlacademy.ru/adaptive/25/user/185171).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Боровик](https://htmlacademy.ru/profile/mouxez).
 
 ---
 
