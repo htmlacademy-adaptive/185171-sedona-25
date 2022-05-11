@@ -50,11 +50,11 @@
               <ul class="user-name__list">
                 <li class="user-name__item">
                   <label class="user-name__label" for="name">Имя*:</label>
-                  <input class="user-name__input" type="text" name="name" id="name" placeholder="Пётр" required>
+                  <input class="user-name__input" type="text" name="name" id="name" placeholder="Пётр" pattern="[A-Za-z]{2,}|[А-Яа-яЁё]{2,}" required>
                 </li>
                 <li class="user-name__item">
                   <label class="user-name__label" for="last-name">Фамилия*:</label>
-                  <input class="user-name__input" type="text" name="last-name" id="last-name" placeholder="Пустота" required>
+                  <input class="user-name__input" type="text" name="last-name" id="last-name" pattern="[A-Za-z]{2,}|[А-Яа-яЁё]{2,}" placeholder="Пустота" required>
                 </li>
                 <li class="user-name__item">
                   <label class="user-name__label" for="patronymic">Отчество:</label>
@@ -70,11 +70,11 @@
               <ul class="user-contacts__list">
                 <li class="user-contacts__item">
                   <label class="user-contacts__label" for="tel">Контактный телефон*:</label>
-                  <input class="user-contacts__input user-contacts__input--tel" type="tel" name="tel" id="tel" placeholder="Введите телефон" required>
+                  <input class="user-contacts__input user-contacts__input--tel" type="tel" name="tel" id="tel" placeholder="Введите телефон" pattern="[0-9]{10,}" required>
                 </li>
                 <li class="user-contacts__item">
                   <label class="user-contacts__label" for="email">Электронная почта*:</label>
-                  <input class="user-contacts__input user-contacts__input--email" type="email" name="email" id="email" placeholder="Введите e-mail" required>
+                  <input class="user-contacts__input user-contacts__input--email" type="email" name="email" id="email" placeholder="Введите e-mail" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})(\.)([A-z]{2,8})" required>
                 </li>
               </ul>
             </fieldset>
